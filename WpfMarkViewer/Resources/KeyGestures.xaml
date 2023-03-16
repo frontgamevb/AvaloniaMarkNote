@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <KeyGesture x:Key="OpenFileMenuItemKeyGesture">Ctrl+O</KeyGesture>
+    <KeyGesture x:Key="ExitMenuItemKeyGesture">Alt+F4</KeyGesture>
+    <KeyGesture x:Key="FullscreenMenuItemKeyGesture">F11</KeyGesture>
+</ResourceDictionary>

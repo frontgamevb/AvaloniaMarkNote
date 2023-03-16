@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<TargetFramework>net7.0-windows</TargetFramework>
+	<Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
+	<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+	<debugtype>embedded</debugtype>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CommonLibrary\Library.Common\Library.Common.csproj" />
+    <ProjectReference Include="..\..\CommonLibrary\Log.Common\Log.Common.csproj" />
+  </ItemGroup>
+
+</Project>

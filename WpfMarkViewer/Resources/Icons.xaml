@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="Path">
+        <Setter Property="Height" Value="{DynamicResource IconSize}" />
+        <Setter Property="Width" Value="{DynamicResource IconSize}" />
+        <Setter Property="Fill" Value="{DynamicResource ControlTextBrush}" />
+        <Setter Property="Stretch" Value="Uniform" />
+    </Style>
+
+    <!--Material.Menu-->
+    <Path x:Key="MenuPath" Data="M1050 300V200H150V300H1050zM870.2 1004.8L1100 775L870.2 545.2L799.5 615.9L958.6 775L799.5 934.1L870.2 1004.8zM600 650V550H150V650H600zM600 1000V900H150V1000H600z" />
+    <!--Material.FileTree-->
+    <Path x:Key="FileTreePath" Data="M3,3H9V7H3V3M15,10H21V14H15V10M15,17H21V21H15V17M13,13H7V18H13V20H7L5,20V9H7V11H13V13Z" />
+</ResourceDictionary>

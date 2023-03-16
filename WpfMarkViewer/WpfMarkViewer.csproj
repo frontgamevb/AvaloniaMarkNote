@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+	<debugtype>embedded</debugtype>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PropertyChanged.SourceGenerator" Version="1.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLibrary\Log.Common\Log.Common.csproj" />
+    <ProjectReference Include="..\Resources\Language\Language.csproj" />
+    <ProjectReference Include="..\WpfLibrary\Library.Wpf\Library.Wpf.csproj" />
+    <ProjectReference Include="..\WpfLibrary\Localization.Wpf\Localization.Wpf.csproj" />
+    <ProjectReference Include="..\WpfLibrary\Mvvm.Wpf\Mvvm.Wpf.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -12,6 +12,7 @@ Markdown Viewer의 구현은 유튜브 실시간 스트리밍을 통해 이루�
 | --- | --- |
 | AvaloniaMarkViewer | Avalonia Framework Markdown Viewer |
 | WpfMarkViewer | WPF Framework Markdown Viewer. AvaloniaMarkViewer와 동일하게 작동 |
+| Resources | Avalonia, WPF에서 공통으로 사용되는 리소스(언어 등) |
 | CommonLibrary | Avalonia, WPF 공용 Library |
 | AvaloniaLibrary | Avalonia Library |
 | WpfLibrary | WPF Library. Avalonia Library와 동일한 기능을 지원 |
